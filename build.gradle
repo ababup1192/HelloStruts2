@@ -1,0 +1,18 @@
+group 'org.ababup1192'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: "jetty"
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.11'
+    compile 'org.apache.struts:struts2-core:2.3.24'
+    compile 'org.apache.struts:struts2-json-plugin:2.3.24'
+}

@@ -1,0 +1,34 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : org.ababup1192:HelloStruts2 : HelloStruts2-1.0-SNAPSHOT.war">
+    <output-path>$PROJECT_DIR$/out/artifacts/HelloStruts2</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="HelloStruts2-1.0-SNAPSHOT.war">
+      <element id="javaee-facet-resources" facet="HelloStruts2/web/Web Gradle : HelloStruts2-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="HelloStruts2" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.apache.struts:struts2-core:2.3.24" />
+          <element id="library" level="project" name="Gradle: org.apache.struts.xwork:xwork-core:2.3.24" />
+          <element id="library" level="project" name="Gradle: org.freemarker:freemarker:2.3.22" />
+          <element id="library" level="project" name="Gradle: ognl:ognl:3.0.6" />
+          <element id="library" level="project" name="Gradle: commons-fileupload:commons-fileupload:1.3.1" />
+          <element id="library" level="project" name="Gradle: commons-io:commons-io:2.2" />
+          <element id="library" level="project" name="Gradle: org.apache.commons:commons-lang3:3.2" />
+          <element id="library" level="project" name="Gradle: asm:asm:3.3" />
+          <element id="library" level="project" name="Gradle: asm:asm-commons:3.3" />
+          <element id="library" level="project" name="Gradle: javassist:javassist:3.11.0.GA" />
+          <element id="library" level="project" name="Gradle: asm:asm-tree:3.3" />
+          <element id="library" level="project" name="Gradle: org.apache.struts:struts2-json-plugin:2.3.24" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/HelloStruts2/exploded/HelloStruts2-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
